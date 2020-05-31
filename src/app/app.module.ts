@@ -12,8 +12,8 @@ import { CompanyEditComponent } from './company/company-edit/company-edit.compon
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { EffectsModule } from '@ngrx/effects';
-import { CompanyEffects } from './effects/company.effects';
-import { companyReducer } from './reducers/company.reducer';
+import { CompanyEffects } from './company/state/company.effects';
+import { companyReducer } from './company/state/company.reducer';
 
 @NgModule({
   declarations: [

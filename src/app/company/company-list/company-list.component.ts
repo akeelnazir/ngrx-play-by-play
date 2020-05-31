@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
 import { Company } from '../../models';
 import { AppState } from 'app/models/appState';
-import * as companyActions from './../../actions/company.actions';
+import * as companyActions from '../state/company.actions';
 
 @Component({
   selector: 'app-company-list',
